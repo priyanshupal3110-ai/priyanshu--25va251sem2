@@ -12,7 +12,7 @@ function addEmployee() {
         name: name,
         id: empId,
         salary: salary,
-        department: dept
+        department: dep
     };
     employees.push(employee);
     alert("Employee Added Successfully!");
