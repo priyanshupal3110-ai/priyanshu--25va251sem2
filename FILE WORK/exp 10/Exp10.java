@@ -22,7 +22,7 @@ abstract class BankAccount {
     }
 
     public void setBalance(double balance) {
-        this.balance = balance;
+        this.balance = balance ;
     }
 
     public void deposit(double amount) {
