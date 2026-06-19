@@ -35,7 +35,7 @@ abstract class BankAccount {
         System.out.println("Account Holder Name: " + accountHolderName);
         System.out.println("Balance: " + balance);
     }
-    abstract void calculateInterest();
+    abstract void calculateInterest() ;
 }
 class SavingsAccount extends BankAccount {
 
