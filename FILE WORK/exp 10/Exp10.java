@@ -40,7 +40,7 @@ abstract class BankAccount {
 class SavingsAccount extends BankAccount {
 
     SavingsAccount(int accountNumber, String accountHolderName, double balance) {
-        super(accountNumber, accountHolderName, balance);
+        super(accountNumber, accountHolderName, balance) ;
     }
 
     @Override
